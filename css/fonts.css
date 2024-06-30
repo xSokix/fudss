@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr-Black';
+    src: url(../fonts/HelveticaNeueCyr-Black.ttf) format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Bold';
+    src: url(../fonts/HelveticaNeueCyr-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Light';
+    src: url(../fonts/HelveticaNeueCyr-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family:'Roboto-Light' ;
+    src: url(../fonts/Roboto-Light.ttf) format('truetype');
+    font-weight: 300;
+}

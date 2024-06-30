@@ -1,0 +1,466 @@
+@media (max-width: 1144px) {
+    .instruction__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dish__title {
+        top: 290px;
+    }
+
+    .dish__title-h {
+        top: 316px;
+    }
+
+    .dish__cards {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 530px;
+    }
+
+    .line2 {
+        top: 425px;
+    }
+
+    .chefs__desc {
+        top: 120px;
+    }
+
+    .chefs__des {
+        top: 830px;
+    }
+
+    .line3 {
+        top: 1085px;
+    }
+
+    .social__title_h {
+        top: 482px;
+    }
+
+    .social__title {
+        top: 515px;
+    }
+
+    .chefs {
+        margin-top: 760px;
+    }
+
+    .chefs__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recipse__h {
+        top: 505px;
+    }
+
+    .recipes__desc {
+        top: 535px;
+    }
+
+    .line4 {
+        top: -215px;
+    }
+
+    .chefs__h {
+        font-size: 90px;
+    }
+
+    .recipes__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1290px;
+    }
+
+    .final {
+        margin-top: 860px;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu {
+        display: flex;
+    }
+
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 50px;
+        background-color: #535353;
+        animation: menuAnimation 0.4s;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: 1s;
+    }
+
+    .open {
+        transform: translateX(0);
+    }
+
+    .header__menu ul {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    @keyframes menuAnimation {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 777px) {
+    .food__cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .food {
+        height: 965px;
+        margin-top: 190px;
+    }
+
+    .banner__menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .recipes__wrap {
+        margin-top: 2866px;
+    }
+
+    .chefs__wrap {
+        margin-top: 1930px;
+    }
+
+    .chefs__desc {
+        top: 1745px;
+    }
+
+    .chefs__h {
+        top: 1715px;
+    }
+
+    .line4 {
+        top: 1425px;
+    }
+
+    .recipes__desc {
+        top: 2125px;
+    }
+
+    .line3 {
+        top: 2675px;
+    }
+
+    .recipse__h {
+        top: 2095px;
+    }
+
+    .final {
+        margin-top: 2350px;
+    }
+
+    .final .final__div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .final .final__div .final__div-blok {
+        margin-top: 30px;
+    }
+
+    .banner__title-h {
+        margin-top: 200px;
+    }
+
+    .recipes__desc {
+        font-size: 31px;
+    }
+
+    .recipse__h {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 750px) {
+    .dish__cards {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .food__item_h1 {
+        font-size: 25px;
+    }
+
+    .food {
+        transform: translateY(-101px);
+    }
+
+    .food {
+        height: 965px;
+        margin-top: 35px;
+    }
+
+    .line {
+        top: 315px;
+    }
+
+    .instruction__desc-p {
+        top: 205px;
+    }
+
+    .instruction__desc-h {
+        top: 180px;
+    }
+
+    .instruction__cards {
+        margin-top: 370px;
+    }
+
+    .line2 {
+        top: 475px;
+    }
+
+    .dish__title-h {
+        top: 360px;
+    }
+
+    .dish__title {
+        top: 335px;
+    }
+
+    .recipes__cards-menu {
+        width: 450px;
+    }
+
+    .recipes__img {
+        width: 452px;
+        height: 150px;
+    }
+
+    .recipes__cards-menu-p1 {
+        max-width: 398px;
+    }
+
+    .recipes__wrap {
+        gap: 40px;
+    }
+
+    .recipes__bg {
+        max-width: 456px;
+    }
+
+    .recipes__cards_big-p {
+        padding: 45px 0 15px;
+    }
+
+    .recipes__cards_big_link {
+        left: 185px;
+    }
+
+    .recipes__cards_big {
+        height: inherit;
+        width: inherit;
+    }
+
+    .dish__cards {
+        margin-top: 1000px;
+    }
+
+    .dish__title-h {
+        top: 840px;
+    }
+
+    .dish__title {
+        top: 815px;
+    }
+
+    .line2 {
+        top: 965px;
+    }
+
+    .chefs__wrap {
+        margin-top: 2350px;
+    }
+
+    .chefs__h {
+        top: 2160px;
+    }
+
+    .line4 {
+        top: 1865px;
+    }
+
+    .chefs__desc {
+        top: 2185px;
+    }
+
+    .recipes__wrap {
+        margin-top: 3120px;
+    }
+
+    .recipes__desc {
+        top: 2485px;
+    }
+
+    .recipse__h {
+        top: 2455px;
+    }
+
+    .line3 {
+        top: 3020px;
+    }
+
+    .final {
+        margin-top: 2630px;
+    }
+}
+
+@media (max-width: 588px) {
+    .instruction__cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .banner__h-samp {
+        font-size: 55px;
+    }
+
+    .dish__title {
+        font-size: 70px;
+    }
+
+    .dish__title-h {
+        font-size: 36px;
+    }
+
+    .instruction__desc-h {
+        font-size: 75px;
+    }
+
+    .instruction__desc-p {
+        font-size: 38px;
+    }
+
+    .food__item_h {
+        font-size: 75px;
+    }
+
+    .food__item_h1 {
+        font-size: 20px;
+    }
+
+    .chefs__desc {
+        font-size: 30px;
+    }
+
+    .chefs__h {
+        font-size: 70px;
+    }
+
+    .recipes__desc {
+        font-size: 22px;
+    }
+
+    .recipse__h {
+        font-size: 55px;
+    }
+
+    .recipes__cards-menu {
+        width: 400px;
+        height: 175px;
+    }
+
+    .recipes__bg {
+        max-width: 390px;
+        height: 415px;
+    }
+
+    .recipes__img {
+        width: 400px;
+    }
+
+    .recipes__cards-menu-p1 {
+        max-width: 361px;
+    }
+
+    .recipes__cards_big_link {
+        left: 160px;
+    }
+
+    .food__cards_desc {
+        max-width: 323px;
+        top: 200px;
+    }
+
+    .banner__title-p {
+        max-width: 305px;
+    }
+
+    .banner__title-h {
+        font-size: 54px;
+    }
+
+    .banner__title-h {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 520px) {
+    .recipes__bg {
+        max-width: 360px;
+    }
+
+    .recipes__cards-menu {
+        width: 360px;
+    }
+
+    .recipes__img {
+        width: 360px;
+        height: 165px;
+    }
+
+    .recipes__cards-menu-p1 {
+        max-width: 343px;
+    }
+
+    .recipes__cards-desc-button1 {
+        top: 130px;
+    }
+
+    .recipes__cards_desc1 {
+        top: 130px;
+    }
+
+    .recipes__cards-item1 {
+        top: 130px;
+    }
+}
+
+@media (max-width: 400px) {
+    .recipes__cards_big-h {
+        max-width: 372px;
+    }
+}
